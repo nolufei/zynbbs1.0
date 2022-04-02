@@ -220,7 +220,7 @@
 
     <build>
 
-        <finalName>pybbs</finalName>
+        <finalName>zynbbs</finalName>
 
         <resources>
             <resource>
