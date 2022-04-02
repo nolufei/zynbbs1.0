@@ -17,11 +17,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.*;
 
-/**
- * Created by tomoya.
- * Copyright (c) 2018, All Rights Reserved.
- * https://yiiu.co
- */
+
 @Component
 public class BaseModel {
 

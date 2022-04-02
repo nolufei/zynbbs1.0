@@ -79,8 +79,8 @@ public class MD5Util {
      *
      * @param str 字符串
      * @return String
-     * @author 郑晓鹏
-     * @date 2014年06月24日
+     * @author
+     * @date
      */
     public static String getMD5String(String str) {
         return getMD5String(str.getBytes());

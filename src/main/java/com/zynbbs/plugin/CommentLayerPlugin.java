@@ -35,7 +35,6 @@ public class CommentLayerPlugin {
     }
 
     // 盖楼排序
-    // ！！！想来想去还是要用到两层for循环，求大神优化这部分代码，越快越好！！！
     private List<CommentsByTopic> sortByLayer(List<CommentsByTopic> comments) {
         List<CommentsByTopic> newComments = new ArrayList<>();
         for (CommentsByTopic comment : comments) {

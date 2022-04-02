@@ -4,7 +4,7 @@
             <ul class="sidebar-menu">
                 <div class="user-panel">
                     <div class="pull-left image">
-                        <img src="1.jpg"
+                        <img src="http://qqpublic.qpic.cn/qq_public/0/0-2607181002-DDB959F2DE382FBC6D4AAA5B32AEC00D/0?fmt=jpg&size=75&h=606&w=606&ppv=1.jpg"
                              class="img-circle"
                              alt="User Image">
                     </div>

@@ -9,8 +9,8 @@ import java.util.*;
  * <p>
  * 源码来自：https://www.jianshu.com/p/2e84eacc3cc8
  *
- * @author sam
- * @since 2017/9/4
+ * @author
+ * @since
  * <p>
  * 这个过滤算法简单是简单，但没法对多音字过滤，一个敏感词，如果用同音的字把其中一个字换了，就过滤不掉了，不过聊胜于无 :)
  */

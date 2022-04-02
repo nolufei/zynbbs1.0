@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0767ef51-ec08-4e56-8b93-113546a1b5ff" name="Changes" comment="git add ." />
+    <list default="true" id="0767ef51-ec08-4e56-8b93-113546a1b5ff" name="Changes" comment="git add .">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zynbbs/plugin/CommentLayerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/plugin/CommentLayerPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zynbbs/util/BaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/util/BaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zynbbs/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zynbbs/util/SensitiveWordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/util/SensitiveWordUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/layout/menu.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/layout/menu.ftl" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,10 +57,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ideaProject\src\main\resources\templates\admin\layout" />
+      <recent name="F:\ideaProject\src\main\resources\templates\admin" />
       <recent name="F:\BaiduNetdiskDownload\pybbs-master\src\main\resources\templates\admin\layout" />
       <recent name="F:\BaiduNetdiskDownload\pybbs-master\src\main\resources\templates\admin" />
       <recent name="F:\BaiduNetdiskDownload\pybbs-master\src\main\resources\static" />
@@ -110,6 +121,10 @@
       <workItem from="1648873018636" duration="2044000" />
       <workItem from="1648876468660" duration="628000" />
       <workItem from="1648877315093" duration="3603000" />
+      <workItem from="1648882974675" duration="931000" />
+      <workItem from="1648885290488" duration="528000" />
+      <workItem from="1648887938297" duration="53000" />
+      <workItem from="1648888786772" duration="6703000" />
     </task>
     <task id="LOCAL-00001" summary="git add .">
       <created>1648560313848</created>
@@ -176,5 +191,16 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="git add ." />
     <option name="LAST_COMMIT_MESSAGE" value="git add ." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zynbbs/util/captcha/Captcha.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
