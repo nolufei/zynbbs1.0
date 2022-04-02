@@ -1,0 +1,16 @@
+2022-03-29 13:51:29 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.zynbbs.mapper.AdminUserMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.zynbbs.mapper.AdminUserMapper' in your configuration.
+
+2022-03-29 15:17:54 [XNIO-1 task-12] ERROR c.y.p.c.a.IndexAdminController - Submitted credentials for token [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=true] did not match the expected credentials.
