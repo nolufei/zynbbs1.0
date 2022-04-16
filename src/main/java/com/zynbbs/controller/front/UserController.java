@@ -2,13 +2,14 @@ package com.zynbbs.controller.front;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.zynbbs.model.Follow;
+import com.zynbbs.service.FollowService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
+import com.zynbbs.service.FollowService;
 import com.zynbbs.model.OAuthUser;
 import com.zynbbs.model.User;
 import com.zynbbs.service.ICollectService;

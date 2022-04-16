@@ -7,8 +7,7 @@
     <list default="true" id="0767ef51-ec08-4e56-8b93-113546a1b5ff" name="Changes" comment="git add .">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zynbbs/controller/api/FollowApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/controller/api/FollowApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zynbbs/controller/api/IndexApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/controller/api/IndexApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zynbbs/controller/front/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/controller/front/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zynbbs/controller/front/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/controller/front/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +138,7 @@
       <workItem from="1648885290488" duration="528000" />
       <workItem from="1648887938297" duration="53000" />
       <workItem from="1648888786772" duration="9342000" />
-      <workItem from="1650078407570" duration="8709000" />
+      <workItem from="1650078407570" duration="9506000" />
     </task>
     <task id="LOCAL-00001" summary="git add .">
       <created>1648560313848</created>
@@ -225,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650096039811</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="git add .">
+      <created>1650097101938</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1650097101938</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
