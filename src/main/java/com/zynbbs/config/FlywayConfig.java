@@ -26,5 +26,4 @@ public class FlywayConfig {
                 "filesystem:db/migration").baselineOnMigrate(true).load();
         flyway.migrate();
     }
-
 }

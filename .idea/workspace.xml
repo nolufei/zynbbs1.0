@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0767ef51-ec08-4e56-8b93-113546a1b5ff" name="Changes" comment="git add .">
+      <change afterPath="$PROJECT_DIR$/static/upload/avatar/asd/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/upload/topic/123/7da01d32-54dc-4498-a936-3584575d200f.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__initialize.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__initialize.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zynbbs/config/FlywayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/config/FlywayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zynbbs/config/realm/MyShiroRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/config/realm/MyShiroRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/components/author.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/components/author.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/upload/avatar/123/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/upload/avatar/123/avatar.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +143,7 @@
       <workItem from="1648885290488" duration="528000" />
       <workItem from="1648887938297" duration="53000" />
       <workItem from="1648888786772" duration="9342000" />
-      <workItem from="1650078407570" duration="11065000" />
+      <workItem from="1650078407570" duration="15135000" />
     </task>
     <task id="LOCAL-00001" summary="git add .">
       <created>1648560313848</created>
@@ -245,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650098189138</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="git add .">
+      <created>1650099613251</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650099613251</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
