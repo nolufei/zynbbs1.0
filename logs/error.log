@@ -1,16 +1,1 @@
-2022-03-29 13:51:29 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-A component required a bean of type 'com.zynbbs.mapper.AdminUserMapper' that could not be found.
-
-
-Action:
-
-Consider defining a bean of type 'com.zynbbs.mapper.AdminUserMapper' in your configuration.
-
-2022-03-29 15:17:54 [XNIO-1 task-12] ERROR c.y.p.c.a.IndexAdminController - Submitted credentials for token [org.apache.shiro.authc.UsernamePasswordToken - admin, rememberMe=true] did not match the expected credentials.
+2022-04-16 15:46:45 [XNIO-1 task-48] ERROR c.z.e.GlobalExceptionHandler - This subject is anonymous - it does not have any identifying principals and authorization operations require an identity to check against.  A Subject instance will acquire these identifying principals automatically after a successful login is performed be executing org.apache.shiro.subject.Subject.login(AuthenticationToken) or when 'Remember Me' functionality is enabled by the SecurityManager.  This exception can also occur when a previously logged-in Subject has logged out which makes it anonymous again.  Because an identity is currently not known due to any of these conditions, authorization is denied.

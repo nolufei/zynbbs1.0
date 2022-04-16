@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0767ef51-ec08-4e56-8b93-113546a1b5ff" name="Changes" comment="git add .">
-      <change afterPath="$PROJECT_DIR$/logs/log-2022-04-03.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/loginbg.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/qitafuwu.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/xiaoyuanfuwu.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/xueshujiaoliu.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/yulejiaoyou.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/user/follow.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error.log.2022-04-02.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/controller/admin/NotificationAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/controller/api/FollowApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/mapper/FollowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/mapper/FollowMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/model/Follow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zynbbs/service/FollowService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/system/edit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/system/edit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/user/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/user/list.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/components/author.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/components/author.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/components/create_topic_guide.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/components/create_topic_guide.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/index.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/layout/header.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/layout/header.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/tag/tag.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/tag/tag.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/user/profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/user/profile.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +63,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/zynbbs/mapper" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ideaProject\src\main\java\com\zynbbs\mapper" />
       <recent name="F:\ideaProject\src\main\resources\static" />
       <recent name="F:\ideaProject\src\main\resources\templates\theme\default\user" />
     </key>
@@ -86,6 +78,12 @@
       <recent name="F:\BaiduNetdiskDownload\pybbs-master\src\main\resources\templates\admin\layout" />
       <recent name="F:\BaiduNetdiskDownload\pybbs-master\src\main\resources\templates\admin" />
       <recent name="F:\BaiduNetdiskDownload\pybbs-master\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zynbbs.controller.admin" />
+      <recent name="com.zynbbs.model" />
+      <recent name="com.zynbbs.service" />
+      <recent name="com.zynbbs.controller.api" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -145,7 +143,7 @@
       <workItem from="1648885290488" duration="528000" />
       <workItem from="1648887938297" duration="53000" />
       <workItem from="1648888786772" duration="9342000" />
-      <workItem from="1650078407570" duration="5948000" />
+      <workItem from="1650078407570" duration="7406000" />
     </task>
     <task id="LOCAL-00001" summary="git add .">
       <created>1648560313848</created>
@@ -210,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648908552120</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="git add .">
+      <created>1650094360257</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1650094360257</updated>
+    </task>
+    <task id="LOCAL-00011" summary="git add .">
+      <created>1650094614251</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650094614251</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
