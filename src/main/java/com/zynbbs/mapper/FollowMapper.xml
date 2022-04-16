@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zynbbs.mapper.FollowMapper">
 
-    <resultMap id="FollowMap" type="co.yiiu.pybbs.model.Follow">
+    <resultMap id="FollowMap" type="com.zynbbs.model.Follow">
         <result column="id" property="id"/>
         <result column="user_id" property="userId"/>
         <result column="follow_user_id" property="followUserId"/>
