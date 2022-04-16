@@ -29,7 +29,7 @@ public class FollowApiController extends BaseApiController {
         return success();
     }
 
-    // 取消收藏
+    // 取消关注
     @DeleteMapping("/{followUserId}")
     public Result delete(@PathVariable Integer followUserId) {
         ApiAssert.notNull(followUserId, "你要取消关注谁呢？");

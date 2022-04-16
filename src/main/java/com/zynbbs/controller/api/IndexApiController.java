@@ -1,5 +1,7 @@
 package com.zynbbs.controller.api;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -13,6 +15,7 @@ import com.zynbbs.util.*;
 import com.zynbbs.util.bcrypt.BCryptPasswordEncoder;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.*;
 
@@ -239,6 +242,18 @@ public class IndexApiController extends BaseApiController {
         resultMap.put("urls", urls);
         resultMap.put("errors", errors);
         return success(resultMap);
+    }
+
+    private Logger log = LoggerFactory.getLogger(IndexApiController.class);
+
+    @PostMapping("/test")
+    public Object test(HttpServletRequest request, String name, String age) {
+        log.info("Content-Type: {}", request.getContentType());
+        log.info("token: {}", request.getHeader("token"));
+        log.info("name: {}", name);
+        log.info("age: {}", age);
+//        log.info("map: {}", map.toString());
+        return success();
     }
 
 }

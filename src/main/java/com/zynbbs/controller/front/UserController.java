@@ -1,5 +1,7 @@
 package com.zynbbs.controller.front;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.zynbbs.model.Follow;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -32,6 +34,8 @@ public class UserController extends BaseController {
     private ICollectService collectService;
     @Resource
     private IOAuthUserService oAuthUserService;
+    @Resource
+    private FollowService followService;
 
     @GetMapping("/{username}")
     public String profile(@PathVariable String username, Model model) {
@@ -41,6 +45,8 @@ public class UserController extends BaseController {
         List<OAuthUser> oAuthUsers = oAuthUserService.selectByUserId(user.getId());
         // 查询用户收藏的话题数
         Integer collectCount = collectService.countByUserId(user.getId());
+        // 查询用户关注的用户数
+        Integer followCount = followService.countByUserId(user.getId());
 
         // 找出oauth登录里有没有github，有的话把github的login提取出来
         List<String> logins = oAuthUsers.stream().filter(oAuthUser -> oAuthUser.getType().equals("GITHUB")).map
@@ -53,6 +59,7 @@ public class UserController extends BaseController {
         model.addAttribute("username", username);
         model.addAttribute("oAuthUsers", oAuthUsers);
         model.addAttribute("collectCount", collectCount);
+        model.addAttribute("followCount", followCount);
         return render("user/profile");
     }
 
@@ -75,5 +82,19 @@ public class UserController extends BaseController {
         model.addAttribute("username", username);
         model.addAttribute("pageNo", pageNo);
         return render("user/collects");
+    }
+
+    @GetMapping("/{username}/follow")
+    public String follow(@PathVariable String username, @RequestParam(defaultValue = "1") Integer pageNo, Model model) {
+        // 查询用户个人信息
+        User user = userService.selectByUsername(username);
+        IPage<Follow> page = followService.page(pageNo, user.getId());
+        for (Follow record : page.getRecords()) {
+            record.setUser(userService.selectById(record.getFollowUserId()));
+        }
+        model.addAttribute("username", username);
+        model.addAttribute("pageNo", pageNo);
+        model.addAttribute("page", page);
+        return render("user/follow");
     }
 }
