@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0767ef51-ec08-4e56-8b93-113546a1b5ff" name="Changes" comment="git add .">
-      <change afterPath="$PROJECT_DIR$/static/upload/avatar/123/avatar.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/log-2022-04-03.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/loginbg.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/qitafuwu.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/xiaoyuanfuwu.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/xueshujiaoliu.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/yulejiaoyou.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/user/follow.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/system/edit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/system/edit.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/user/list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/user/list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/components/author.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/components/author.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/components/create_topic_guide.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/components/create_topic_guide.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/layout/header.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/layout/header.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/tag/tag.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/tag/tag.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/theme/default/user/profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/theme/default/user/profile.ftl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +72,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ideaProject\src\main\resources\static" />
+      <recent name="F:\ideaProject\src\main\resources\templates\theme\default\user" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\ideaProject\src\main\resources\templates\admin\layout" />
       <recent name="F:\ideaProject\src\main\resources\templates\admin" />
@@ -123,7 +144,8 @@
       <workItem from="1648882974675" duration="931000" />
       <workItem from="1648885290488" duration="528000" />
       <workItem from="1648887938297" duration="53000" />
-      <workItem from="1648888786772" duration="7122000" />
+      <workItem from="1648888786772" duration="9342000" />
+      <workItem from="1650078407570" duration="5948000" />
     </task>
     <task id="LOCAL-00001" summary="git add .">
       <created>1648560313848</created>
@@ -181,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648908294071</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="git add .">
+      <created>1648908552120</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648908552120</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

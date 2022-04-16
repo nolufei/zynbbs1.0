@@ -100,7 +100,7 @@
             var es_port = $("#elasticsearch_port").val();
             var es_index = $("#elasticsearch_index").val();
             if (search === "1" && (es_host.length === 0 || es_port.length === 0 || es_index.length === 0)) {
-                toast("开启搜索功能却不配置ES服务，你是想让网站隔屁吗？");
+                toast("开启搜索功能需要配置ES服务");
                 // TODO 增加相应输入框红色边框，提示用户应该配置哪地方
             } else {
                 $.ajax({

@@ -13,6 +13,7 @@
                                 <div><i class="gray">${user.bio!}</i></div>
                             </#if>
                             <div>收藏话题: <a href="/user/${user.username}/collects">${collectCount!0}</a></div>
+                            <div>关注用户: <a href="/user/${user.username}/follow">${followCount!0}</a></div>
                             <div>入驻时间: ${model.formatDate(user.inTime)}</div>
                         </div>
                     </div>

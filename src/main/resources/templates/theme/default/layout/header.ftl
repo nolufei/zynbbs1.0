@@ -14,9 +14,29 @@
                             <i class="fa fa-home"></i> ${i18n.getMessage("index")}
                         </a>
                     </li>
-                    <li class="nav-item <#if page_tab == "tags">active</#if>">
+                    <#--<li class="nav-item <#if page_tab == "tags">active</#if>">
                         <a href="/tags" class="nav-link">
                             <i class="fa fa-tags"></i> ${i18n.getMessage("tag")}
+                        </a>
+                    </li>-->
+                    <li class="nav-item <#if page_tab == "tags">active</#if>">
+                        <a href="/topic/tag/校园服务" class="nav-link">
+                            校园服务
+                        </a>
+                    </li>
+                    <li class="nav-item <#if page_tab == "tags">active</#if>">
+                        <a href="/topic/tag/娱乐交友" class="nav-link">
+                            娱乐交友
+                        </a>
+                    </li>
+                    <li class="nav-item <#if page_tab == "tags">active</#if>">
+                        <a href="/topic/tag/学术探讨" class="nav-link">
+                            学术探讨
+                        </a>
+                    </li>
+                    <li class="nav-item <#if page_tab == "tags">active</#if>">
+                        <a href="/topic/tag/其他服务" class="nav-link">
+                            其他服务
                         </a>
                     </li>
                 </ul>

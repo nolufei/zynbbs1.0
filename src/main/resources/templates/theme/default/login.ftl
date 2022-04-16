@@ -1,5 +1,14 @@
 <#include "layout/layout.ftl"/>
 <@html page_title="登录" page_tab="login">
+    <style type="text/css">
+        .wrapper {
+            background-color: transparent !important;
+            background-image: url("/static/images/loginbg.JPG");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+    </style>
     <div class="row">
         <div class="col-md-3 d-none d-md-block"></div>
         <div class="col-md-6">

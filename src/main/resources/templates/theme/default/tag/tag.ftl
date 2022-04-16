@@ -1,5 +1,21 @@
 <#include "../layout/layout.ftl"/>
-<@html page_title="标签" page_tab="">
+<@html page_title="郑意你论坛" page_tab="">
+
+    <#if tag.name == "校园服务" || tag.name == "娱乐交友" || tag.name == "学术探讨" || tag.name == "其他服务">
+        <style type="text/css">
+            .wrapper {
+                background-color: transparent !important;
+            <#if tag.name == "校园服务"> background-image: url("/static/images/xiaoyuanfuwu.JPG");
+            </#if><#if tag.name == "娱乐交友"> background-image: url("/static/images/yulejiaoyou.JPG");
+            </#if><#if tag.name == "学术探讨"> background-image: url("/static/images/xueshujiaoliu.JPG");
+            </#if><#if tag.name == "其他服务"> background-image: url("/static/images/qitafuwu.JPG");
+            </#if> background-repeat: no-repeat;
+                background-size: cover;
+                height: 100vh;
+            }
+        </style>
+    </#if>
+
     <div class="row">
         <div class="col-md-9">
             <div class="card">
